@@ -1,6 +1,6 @@
 spring:
   application:
-    name: 'fornecedor'
+    name: fornecedor
   autoconfigure:
     exclude: org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration
   jpa:
