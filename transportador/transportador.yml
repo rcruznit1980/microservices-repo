@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    username: root
+    password: root
+    url: jdbc:mysql://localhost:3306/transportador?useTimezone=true&serverTimezone=UTC
+  jpa:
+    show-sql: true
+    hibernate:
+      jdbc:
+        time_zone = UTC
+      ddl-auto: update
+    properties.hibernate.dialect: org.hibernate.dialect.MySQL5InnoDBDialect
